@@ -1,0 +1,29 @@
+:root {
+    --percentage-left: 50%;
+}
+
+.container {
+    align-items: center;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    height: 100vh;
+    justify-content: space-around;
+    max-height: 600px;
+    max-width: 450px;
+    width: 100vh;
+}
+
+.bar-container {
+    background-color: white;
+    border: black solid 2px;
+    height: 100px;
+    width: 75%;
+}
+
+.bar {
+    background-color: #d34343;
+    height: 100%;
+    width: var(--percentage-left);
+}
